@@ -1,5 +1,5 @@
-# Maintainer: Derek Taylor <derek@distrotube.com>
-pkgname=ainyava-calamares
+# Maintainer: Hamed Mahmoudkhani <ainyava+distro@gmail.com>
+pkgname=ainyava-calamares-git
 _destname="/etc"
 pkgver=1.0.0
 pkgrel=1
@@ -12,7 +12,7 @@ depends=()
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=("git+$url")
+source=("$pkgname::git+$url.git")
 sha256sums=('SKIP')
 
 package() {
