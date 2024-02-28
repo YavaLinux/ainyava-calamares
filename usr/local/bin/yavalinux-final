@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+yes | rm /etc/sddm.conf.d/autologin.conf
+yes | rm /etc/mkinitcpio.conf.d/archiso.conf
